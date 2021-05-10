@@ -1,5 +1,6 @@
 const express = require('express');
 const healthRoute = require('./health.route');
+const carRoute = require('./car.route');
 
 const router = express.Router();
 
@@ -7,6 +8,10 @@ const defaultRoutes = [
   {
     path: '/',
     route: healthRoute,
+  },
+  {
+    path: '/cars',
+    route: carRoute,
   },
 ];
 
