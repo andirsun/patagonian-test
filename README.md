@@ -3,6 +3,7 @@
 ## Packages
 
 - [Sequelize](https://sequelize.org/master/)
+- [SQLite3](https://www.npmjs.com/package/sqlite3)
 - [Joi](https://github.com/hapijs/joi)
 - [winston](https://github.com/winstonjs/winston)
 - [morgan](https://github.com/expressjs/morgan)
