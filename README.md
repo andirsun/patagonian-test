@@ -15,6 +15,10 @@
 - [Prettier](https://prettier.io)
 - [EditorConfig](https://editorconfig.org)
 
+## How to Run (Create database with models and migrations)
+```bash
+npx sequelize-cli db:migrate
+```
 ## Commands
 
 Local:
