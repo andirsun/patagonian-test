@@ -1,0 +1,26 @@
+{
+  "name": "patagonian-test",
+  "version": "0.0.1",
+  "description": "Backend test",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andirsun/patagonian-test.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "sequelize",
+    "aws"
+  ],
+  "author": "Anderson Laverde Gracia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andirsun/patagonian-test/issues"
+  },
+  "homepage": "https://github.com/andirsun/patagonian-test#readme"
+}
