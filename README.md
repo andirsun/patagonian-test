@@ -1,5 +1,5 @@
 # Backend Test
-
+# NOTES : Last Steps are Create tests cases with Jest (Look last PR in progress)
 ## Packages
 
 - [Sequelize](https://sequelize.org/master/)
