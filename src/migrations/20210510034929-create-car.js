@@ -42,6 +42,6 @@ module.exports = {
     });
   },
   down: async (queryInterface) => {
-    await queryInterface.dropTable('Cars');
+    await queryInterface.dropTable('cars');
   },
 };

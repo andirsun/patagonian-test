@@ -4,6 +4,7 @@
 
 - [Sequelize](https://sequelize.org/master/)
 - [SQLite3](https://www.npmjs.com/package/sqlite3)
+- [CsvParser](https://www.npmjs.com/package/csv-parser)
 - [Joi](https://github.com/hapijs/joi)
 - [winston](https://github.com/winstonjs/winston)
 - [morgan](https://github.com/expressjs/morgan)
@@ -27,7 +28,7 @@ Local:
 npm run start:dev
 ```
 
-Producción:
+Production:
 
 ```bash
 npm run start:prod
@@ -62,6 +63,8 @@ npm run prettier:fix
  controllers\    # Controllers
  middlewares\    # Middlewares
  migrations\     # Migrations
+ db\     				 # Local Sqlite3 Database
+ public\				 # Directory to load files
  models\         # Models
  routes\         # Routes
  services\       # Business logic

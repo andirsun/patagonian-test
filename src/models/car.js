@@ -20,9 +20,7 @@ module.exports = (sequelize, DataTypes) => {
     {
       sequelize,
       modelName: 'Car',
-      tableName: 'car',
-      updatedAt: 'updated_at',
-      createdAt: 'created_at',
+      tableName: 'cars',
     }
   );
   return Car;
