@@ -1,0 +1,4 @@
+VIN,Make,Model,Mileage,Year,Price,Zip_Code
+!test1,Car1,1997,91,21,20000,2000
+!test2,Car2,1998,92,22,20001,2001
+!test3,Car3,1999,93,23,20002,2002
