@@ -24,13 +24,7 @@ npx sequelize-cli db:migrate
 Local:
 
 ```bash
-npm run start:dev
-```
-
-Production:
-
-```bash
-npm run start:prod
+npm run start
 ```
 
 Testing:
