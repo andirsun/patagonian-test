@@ -10,6 +10,7 @@ const db = {};
 const sequelize = new Sequelize({
   dialect: config.dialect,
   storage: config.storage,
+  logging: false,
 });
 
 fs.readdirSync(__dirname)
