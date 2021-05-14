@@ -4,8 +4,8 @@
   "description": "Backend test",
   "main": "server.js",
   "scripts": {
-    "test": "npm run test",
-    "start": "env TZ='America/Bogota' node server.js",
+    "test": "jest --detectOpenHandles",
+    "start": "env TZ='America/Bogota' node src/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --check **/*.js",
@@ -59,6 +59,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-security": "^1.4.0",
     "jest": "^26.0.1",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "supertest": "^6.1.3"
   }
 }
